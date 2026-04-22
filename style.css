@@ -1,0 +1,46 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header, footer {
+    background-color: #1f2937;
+}
+a , button{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.awesome h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+button, .action {
+    background-color: #3882f6;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+strong {
+    color: #1f2937;
+}
+.quote {
+    background-color: #E5E7EB;
+}
+.quote p {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+.box {
+    color: #1f2937;
+}
