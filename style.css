@@ -4,6 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
 }
 .header, footer {
     background-color: #1f2937;
@@ -20,6 +26,8 @@ a , button{
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
 }
 button, .action {
     background-color: #3882f6;
@@ -29,12 +37,18 @@ h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
 }
 strong {
     color: #1f2937;
+    align-self: flex-end;
 }
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .quote p {
     color: #1f2937;
@@ -43,4 +57,52 @@ strong {
 }
 .box {
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.blurb {
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.box-group {
+    display: flex;
+    justify-content: center;
+}
+.square {
+    height: 200px;
+    width: 200px;
+    border-color:#3882f6;
+    border-style: solid;
+    border-width: 8px;
+}
+
+.box p {
+    width: 200px;
+}
+p {
+    margin: 0;
+}
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+h3 {
+    margin: 0;
+}
+footer {
+    text-align: center;
+}
+/* .action-text{
+    flex: 2 1 auto;
+} */
