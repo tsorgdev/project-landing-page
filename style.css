@@ -13,6 +13,7 @@ body {
 }
 .header, footer {
     background-color: #1f2937;
+    padding: 0 12vh;
 }
 a , button{
     font-size: 18px;
@@ -25,7 +26,9 @@ a , button{
 }
 .logo {
     font-size: 24px;
+    padding-top: 16px;
     color: #F9FAF8;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
 }
@@ -63,13 +66,18 @@ strong {
     text-align: center;
 }
 ul {
+    list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
+    gap: 24px;
 }
 .blurb {
     display: flex;
     justify-content: space-between;
+    padding: 96px 0;
+    gap: 32px;
 }
 .info {
     display: flex;
@@ -80,15 +88,15 @@ ul {
     justify-content: center;
 }
 .square {
-    height: 200px;
-    width: 200px;
+    height: 128px;
+    width: 128px;
     border-color:#3882f6;
     border-style: solid;
     border-width: 8px;
 }
 
 .box p {
-    width: 200px;
+    width: 128px;
 }
 p {
     margin: 0;
@@ -103,6 +111,28 @@ h3 {
 footer {
     text-align: center;
 }
-/* .action-text{
-    flex: 2 1 auto;
-} */
+.logo a {
+    text-decoration: none;
+    font-weight: normal;
+}
+h1 {
+    margin: 0;
+}
+img {
+    height: 222px;
+}
+.action button {
+    border-color: #E5E7EB;
+    border-radius: 8px;
+}
+
+.awesome button {
+    border-style: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 32px;
+    margin-top: 8px;
+}
+.awesome {
+    min-width: 378px;
+}
