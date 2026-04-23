@@ -44,7 +44,10 @@ h2 {
 }
 strong {
     color: #1f2937;
+    font-size: 24px;
     align-self: flex-end;
+    width: 40vw;
+
 }
 .quote {
     background-color: #E5E7EB;
@@ -52,11 +55,13 @@ strong {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 96px 0;
 }
 .quote p {
     color: #1f2937;
     font-size: 36px;
     font-weight: 300;
+    width: 844px;
 }
 .box {
     color: #1f2937;
